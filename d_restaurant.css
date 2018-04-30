@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+}
+
+nav {
+  color: black;
+  width: auto;
+  margin-top: 8%;
+}
+
+#menu_button {
+  padding-right: 5%;
+}
+
+nav ul {
+  color: black;
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  width: auto;
+  color: black;
+  font-family: 'Averia Libre', cursive;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+  margin-top: 1.5%;
+}
+
+.logo-header {
+  margin-top: 5%;
+}
+
+.logo-header-home {
+  margin-top: 10%;
+}
+
+nav ul li a.active-page {
+  color: black;
+  font-weight: bold;
+}
+
+
+nav ul li a:link, nav li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.about-section {
+  margin-top: 5%;
+}
+
+#welcome {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+#home-about {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#home-line {
+  width: 35%;
+  margin-top: 10%;
+}
+
+#yelp {
+  margin: auto;
+  margin-top: 5%;
+}
+
+/* nav ul li a:hover {
+  color: black;
+  opacity: 100%;
+} */
