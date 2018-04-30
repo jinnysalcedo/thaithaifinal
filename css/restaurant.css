@@ -1,0 +1,202 @@
+/* NAVIGATION STYLES */
+nav {
+  color: black;
+  width: auto;
+  margin-top: 8%;
+}
+
+#menu_button {
+  padding-right: 5%;
+}
+
+nav ul {
+  color: black;
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  width: auto;
+  color: black;
+  font-family: 'Averia Libre', cursive;
+  font-size: 1.2em;
+}
+
+hr {
+  width: 100%;
+  margin-top: 1.5%;
+}
+
+.logo-header {
+  margin-top: 5%;
+}
+
+.logo-header-home {
+  margin-top: 10%;
+}
+
+nav ul li a.active-page {
+  color: black;
+  font-weight: bold;
+}
+
+
+nav ul li a:link, nav li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* ///// FOOTER STYLES /////  */
+footer {
+  background-color: #5b1b11;
+  color: white;
+  margin-top: 20px;
+  padding: 90px;
+  font-size: 1.3em;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+   list-style-type: none;
+
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: black;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+
+
+/* ////// HEADER CLASSES /////  */
+h1 {
+  /* background-color: rgb(64, 66, 68); */
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 4em;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* //// ARTWORK HEADER, TEXT, AND BACKGROUND ////  */
+h2 {
+  /* background-color: rgb(64, 66, 68); */
+  font-family: 'Averia Libre', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 3em;
+  /* text-decoration: underline; */
+}
+
+/* //// USED FOR LINKS FOR IMAGES ON GALLERY PAGES /////  */
+h3 {
+  font-family: 'Averia Libre', cursive;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+h4 {
+background-color: #5b1b11;
+height: 30px;
+color: white;
+font-family: 'Quicksand', sans-serif;
+font-size: 1.3em;
+}
+
+
+/* ///// USED FOR IMAGE DETAIL PAGES /////  */
+figcaption {
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+  font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+/* .box {
+
+} */
+
+/* //// MEDIA QUERIES : MOBILE AND IPAD ////  */
+
+@media (max-width: 1280px) {
+   h1 {
+     font-size: 2.1rem;
+     font-weight: bold;
+     }
+   h2 {
+     font-size: 2.5rem;
+   }
+   h3, h4 {
+     font-size: 1.1rem;
+   }
+   p {
+     font-size: 1rem;
+     margin-right: 5px;
+     margin-left: 50px;
+   }
+   a {
+     font-size: 1.2rem;
+   }
+   nav a, nav ul {
+     font-size: 1.2rem;
+   }
+   footer {
+     font-size: 1rem;
+     text-align: center;
+   }
+ }
+
+
+/* ///// SEPARATE CLASSES FOR SPECIFIC THINGS /////  */
+#price {
+  text-align: right;
+}
+
+#address {
+  background-color: #5b1b11;
+  height: 50px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.3em;
+}
+
+
+#menupic {
+  margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+#price {
+text-align: center;
+}
+
+
+.right {
+	float: right;
+}
