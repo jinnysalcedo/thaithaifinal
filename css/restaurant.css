@@ -40,22 +40,31 @@ hr {
 }
 
 nav ul li a.active-page {
-  color: black;
+  color: #962215;
   font-weight: bold;
 }
 
+nav a:hover{
+color: #FBF070;
 
-nav ul li a:link, nav li a:visited {
+
+}
+
+
+nav ul li a:link{
   text-decoration: none;
+  color: black;
+}
+
+nav a{
   color: black;
 }
 
 /* ///// FOOTER STYLES /////  */
 footer {
-  background-color: #962215;
-  color: white;
+  background-color: #FBF070;
   margin-top: 20px;
-  padding: 90px;
+  padding: 50px;
   font-size: 1.3em;
   font-family: 'Quicksand', sans-serif;
   text-decoration: none;
@@ -113,7 +122,7 @@ h3 {
 
 h4 {
 height: 20px;
-color: white;
+color: black;
 font-family: 'Quicksand', sans-serif;
 font-size: 1em;
 }
@@ -218,4 +227,13 @@ p {
 
 #price {
 text-align: center;
+}
+
+.backgroundcolor {
+background-color: rgba(255,255,255,.60);
+}
+
+.mybg{
+background-image: url(../img/thaiwtf2.jpg);
+
 }
