@@ -174,7 +174,7 @@ p {
      text-align: center;
    }
 
-   
+
 
  }
 
@@ -185,6 +185,8 @@ p {
     border: double;
     border-width: 5px;
     border-spacing: 5%;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
 #chili {
