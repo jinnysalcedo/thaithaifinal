@@ -104,7 +104,7 @@ h2 {
 /* //// USED FOR LINKS FOR IMAGES ON GALLERY PAGES /////  */
 h3 {
   font-family: 'Averia Libre', cursive;
-  text-transform: uppercase;
+
   text-align: left;
   font-size: 1.1em;
   font-weight: bold;
@@ -130,6 +130,8 @@ font-size: 1em;
 } */
 
 p {
+  margin-top: -5px;
+  line-height: 25px;
   margin-left: 50px;
   margin-right: 50px;
   text-align: left;
