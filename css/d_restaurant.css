@@ -2,6 +2,33 @@ body {
   background-color: white;
 }
 
+#home_nav {
+  margin-top: 15%;
+}
+
+nav {
+  color: black;
+  width: auto;
+  margin-top: 8%;
+}
+
+#menu_button {
+  padding-right: 5%;
+}
+
+nav ul {
+  color: black;
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  width: auto;
+  color: black;
+  font-family: 'Averia Libre', cursive;
+  font-size: 1.2em;
+}
 
 #home-hr-1 {
   width: 100%;
@@ -16,6 +43,16 @@ body {
   margin-top: 10%;
 }
 
+nav ul li a.active-page {
+  color: black;
+  font-weight: bold;
+}
+
+
+nav ul li a:link, nav li a:visited {
+  text-decoration: none;
+  color: black;
+}
 
 .about-section {
   margin-top: 5%;
@@ -77,14 +114,6 @@ body {
   font-size: 1em;
   margin-top: 4%;
 }
-
-.box {
-    border: double;
-    border-width: 5px;
-    border-spacing: 5%;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
 /* nav ul li a:hover {
   color: black;
   opacity: 100%;
