@@ -121,14 +121,14 @@ font-size: 1.3em;
 
 
 /* ///// USED FOR IMAGE DETAIL PAGES /////  */
-figcaption {
+/* figcaption {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 15px;
   text-align: center;
   font-size: 2em;
-}
+} */
 
 p {
   margin-left: 50px;
@@ -175,6 +175,10 @@ p {
 
 
 /* ///// SEPARATE CLASSES FOR SPECIFIC THINGS /////  */
+
+
+
+
 #price {
   text-align: right;
 }
