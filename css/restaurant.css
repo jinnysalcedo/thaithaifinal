@@ -219,3 +219,12 @@ p {
 #price {
 text-align: center;
 }
+
+.mybg{
+background-image: url(../img/thaiwtf2.jpg);
+
+}
+
+.backgroundcolor {
+background-color: rgba(255,255,255,.60);
+}
